@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C6EDC31A2CE7A38000AA04E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EDC2FB2CE7A37F00AA04E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6EDC3022CE7A37F00AA04E0;
+			remoteInfo = "I Spy";
+		};
+		C6EDC3242CE7A38000AA04E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EDC2FB2CE7A37F00AA04E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6EDC3022CE7A37F00AA04E0;
+			remoteInfo = "I Spy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6EDC3032CE7A37F00AA04E0 /* I Spy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Spy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EDC3192CE7A38000AA04E0 /* I SpyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I SpyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EDC3232CE7A38000AA04E0 /* I SpyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I SpyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C6EDC32B2CE7A38000AA04E0 /* Exceptions for "I Spy" folder in "I Spy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C6EDC3022CE7A37F00AA04E0 /* I Spy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C6EDC3052CE7A37F00AA04E0 /* I Spy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C6EDC32B2CE7A38000AA04E0 /* Exceptions for "I Spy" folder in "I Spy" target */,
+			);
+			path = "I Spy";
+			sourceTree = "<group>";
+		};
+		C6EDC31C2CE7A38000AA04E0 /* I SpyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "I SpyTests";
+			sourceTree = "<group>";
+		};
+		C6EDC3262CE7A38000AA04E0 /* I SpyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "I SpyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6EDC3002CE7A37F00AA04E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EDC3162CE7A38000AA04E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EDC3202CE7A38000AA04E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6EDC2FA2CE7A37F00AA04E0 = {
+			isa = PBXGroup;
+			children = (
+				C6EDC3052CE7A37F00AA04E0 /* I Spy */,
+				C6EDC31C2CE7A38000AA04E0 /* I SpyTests */,
+				C6EDC3262CE7A38000AA04E0 /* I SpyUITests */,
+				C6EDC3042CE7A37F00AA04E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6EDC3042CE7A37F00AA04E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EDC3032CE7A37F00AA04E0 /* I Spy.app */,
+				C6EDC3192CE7A38000AA04E0 /* I SpyTests.xctest */,
+				C6EDC3232CE7A38000AA04E0 /* I SpyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6EDC3022CE7A37F00AA04E0 /* I Spy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6EDC32C2CE7A38000AA04E0 /* Build configuration list for PBXNativeTarget "I Spy" */;
+			buildPhases = (
+				C6EDC2FF2CE7A37F00AA04E0 /* Sources */,
+				C6EDC3002CE7A37F00AA04E0 /* Frameworks */,
+				C6EDC3012CE7A37F00AA04E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C6EDC3052CE7A37F00AA04E0 /* I Spy */,
+			);
+			name = "I Spy";
+			packageProductDependencies = (
+			);
+			productName = "I Spy";
+			productReference = C6EDC3032CE7A37F00AA04E0 /* I Spy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6EDC3182CE7A38000AA04E0 /* I SpyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6EDC3312CE7A38000AA04E0 /* Build configuration list for PBXNativeTarget "I SpyTests" */;
+			buildPhases = (
+				C6EDC3152CE7A38000AA04E0 /* Sources */,
+				C6EDC3162CE7A38000AA04E0 /* Frameworks */,
+				C6EDC3172CE7A38000AA04E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6EDC31B2CE7A38000AA04E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6EDC31C2CE7A38000AA04E0 /* I SpyTests */,
+			);
+			name = "I SpyTests";
+			packageProductDependencies = (
+			);
+			productName = "I SpyTests";
+			productReference = C6EDC3192CE7A38000AA04E0 /* I SpyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6EDC3222CE7A38000AA04E0 /* I SpyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6EDC3342CE7A38000AA04E0 /* Build configuration list for PBXNativeTarget "I SpyUITests" */;
+			buildPhases = (
+				C6EDC31F2CE7A38000AA04E0 /* Sources */,
+				C6EDC3202CE7A38000AA04E0 /* Frameworks */,
+				C6EDC3212CE7A38000AA04E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6EDC3252CE7A38000AA04E0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6EDC3262CE7A38000AA04E0 /* I SpyUITests */,
+			);
+			name = "I SpyUITests";
+			packageProductDependencies = (
+			);
+			productName = "I SpyUITests";
+			productReference = C6EDC3232CE7A38000AA04E0 /* I SpyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6EDC2FB2CE7A37F00AA04E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					C6EDC3022CE7A37F00AA04E0 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					C6EDC3182CE7A38000AA04E0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C6EDC3022CE7A37F00AA04E0;
+					};
+					C6EDC3222CE7A38000AA04E0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C6EDC3022CE7A37F00AA04E0;
+					};
+				};
+			};
+			buildConfigurationList = C6EDC2FE2CE7A37F00AA04E0 /* Build configuration list for PBXProject "I Spy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6EDC2FA2CE7A37F00AA04E0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C6EDC3042CE7A37F00AA04E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6EDC3022CE7A37F00AA04E0 /* I Spy */,
+				C6EDC3182CE7A38000AA04E0 /* I SpyTests */,
+				C6EDC3222CE7A38000AA04E0 /* I SpyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6EDC3012CE7A37F00AA04E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EDC3172CE7A38000AA04E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EDC3212CE7A38000AA04E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6EDC2FF2CE7A37F00AA04E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EDC3152CE7A38000AA04E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EDC31F2CE7A38000AA04E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6EDC31B2CE7A38000AA04E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6EDC3022CE7A37F00AA04E0 /* I Spy */;
+			targetProxy = C6EDC31A2CE7A38000AA04E0 /* PBXContainerItemProxy */;
+		};
+		C6EDC3252CE7A38000AA04E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6EDC3022CE7A37F00AA04E0 /* I Spy */;
+			targetProxy = C6EDC3242CE7A38000AA04E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6EDC32D2CE7A38000AA04E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I Spy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.I-Spy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6EDC32E2CE7A38000AA04E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "I Spy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.I-Spy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6EDC32F2CE7A38000AA04E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6EDC3302CE7A38000AA04E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6EDC3322CE7A38000AA04E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.I-SpyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Spy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I Spy";
+			};
+			name = Debug;
+		};
+		C6EDC3332CE7A38000AA04E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.I-SpyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Spy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/I Spy";
+			};
+			name = Release;
+		};
+		C6EDC3352CE7A38000AA04E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.I-SpyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I Spy";
+			};
+			name = Debug;
+		};
+		C6EDC3362CE7A38000AA04E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.I-SpyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I Spy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6EDC2FE2CE7A37F00AA04E0 /* Build configuration list for PBXProject "I Spy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EDC32F2CE7A38000AA04E0 /* Debug */,
+				C6EDC3302CE7A38000AA04E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6EDC32C2CE7A38000AA04E0 /* Build configuration list for PBXNativeTarget "I Spy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EDC32D2CE7A38000AA04E0 /* Debug */,
+				C6EDC32E2CE7A38000AA04E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6EDC3312CE7A38000AA04E0 /* Build configuration list for PBXNativeTarget "I SpyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EDC3322CE7A38000AA04E0 /* Debug */,
+				C6EDC3332CE7A38000AA04E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6EDC3342CE7A38000AA04E0 /* Build configuration list for PBXNativeTarget "I SpyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EDC3352CE7A38000AA04E0 /* Debug */,
+				C6EDC3362CE7A38000AA04E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6EDC2FB2CE7A37F00AA04E0 /* Project object */;
+}

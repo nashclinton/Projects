@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Spy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NO5-ln-UbX">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3D" translatesAutoresizingMaskIntoConstraints="NO" id="oeE-kS-Z6Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="2443" height="3152"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="oeE-kS-Z6Q" secondAttribute="height" multiplier="2443:3152" id="6sC-XY-hOJ"/>
+                                            <constraint firstAttribute="height" constant="3152" id="BQd-yH-5wp"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="oeE-kS-Z6Q" secondAttribute="trailing" id="D2I-sv-ptJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="oeE-kS-Z6Q" secondAttribute="bottom" id="TMI-MT-Afr"/>
+                                    <constraint firstItem="oeE-kS-Z6Q" firstAttribute="top" secondItem="NO5-ln-UbX" secondAttribute="top" id="Zij-Cq-aBe"/>
+                                    <constraint firstItem="oeE-kS-Z6Q" firstAttribute="leading" secondItem="NO5-ln-UbX" secondAttribute="leading" id="uIb-fe-GA8"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="qpp-ZT-HzJ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="XvP-Nm-mbY"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NO5-ln-UbX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WVX-28-khJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NO5-ln-UbX" secondAttribute="bottom" id="d25-jo-cwj"/>
+                            <constraint firstItem="NO5-ln-UbX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="n60-JB-IWU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NO5-ln-UbX" secondAttribute="trailing" id="zNb-ll-FWb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="oeE-kS-Z6Q" id="kHT-3j-jzA"/>
+                        <outlet property="scrollView" destination="NO5-ln-UbX" id="CTa-cB-UHK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58.778625954198468" y="-29.577464788732396"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3D" width="2443" height="3152"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

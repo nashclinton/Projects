@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "park-city-mountain-resort_mountain-bike_mountain-biking_mtb_pcmr_dash-jay_2020.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
