@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C616DAEF2CAD9FE100BD5327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C616DAD02CAD9FE000BD5327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C616DAD72CAD9FE000BD5327;
+			remoteInfo = TallyApp;
+		};
+		C616DAF92CAD9FE100BD5327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C616DAD02CAD9FE000BD5327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C616DAD72CAD9FE000BD5327;
+			remoteInfo = TallyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C616DAD82CAD9FE000BD5327 /* TallyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616DAEE2CAD9FE100BD5327 /* TallyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616DAF82CAD9FE100BD5327 /* TallyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C616DADA2CAD9FE000BD5327 /* TallyApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TallyApp;
+			sourceTree = "<group>";
+		};
+		C616DAF12CAD9FE100BD5327 /* TallyAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TallyAppTests;
+			sourceTree = "<group>";
+		};
+		C616DAFB2CAD9FE100BD5327 /* TallyAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TallyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C616DAD52CAD9FE000BD5327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C616DAEB2CAD9FE100BD5327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C616DAF52CAD9FE100BD5327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C616DACF2CAD9FE000BD5327 = {
+			isa = PBXGroup;
+			children = (
+				C616DADA2CAD9FE000BD5327 /* TallyApp */,
+				C616DAF12CAD9FE100BD5327 /* TallyAppTests */,
+				C616DAFB2CAD9FE100BD5327 /* TallyAppUITests */,
+				C616DAD92CAD9FE000BD5327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C616DAD92CAD9FE000BD5327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C616DAD82CAD9FE000BD5327 /* TallyApp.app */,
+				C616DAEE2CAD9FE100BD5327 /* TallyAppTests.xctest */,
+				C616DAF82CAD9FE100BD5327 /* TallyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C616DAD72CAD9FE000BD5327 /* TallyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C616DB012CAD9FE100BD5327 /* Build configuration list for PBXNativeTarget "TallyApp" */;
+			buildPhases = (
+				C616DAD42CAD9FE000BD5327 /* Sources */,
+				C616DAD52CAD9FE000BD5327 /* Frameworks */,
+				C616DAD62CAD9FE000BD5327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C616DADA2CAD9FE000BD5327 /* TallyApp */,
+			);
+			name = TallyApp;
+			packageProductDependencies = (
+			);
+			productName = TallyApp;
+			productReference = C616DAD82CAD9FE000BD5327 /* TallyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C616DAED2CAD9FE100BD5327 /* TallyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C616DB062CAD9FE100BD5327 /* Build configuration list for PBXNativeTarget "TallyAppTests" */;
+			buildPhases = (
+				C616DAEA2CAD9FE100BD5327 /* Sources */,
+				C616DAEB2CAD9FE100BD5327 /* Frameworks */,
+				C616DAEC2CAD9FE100BD5327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C616DAF02CAD9FE100BD5327 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C616DAF12CAD9FE100BD5327 /* TallyAppTests */,
+			);
+			name = TallyAppTests;
+			packageProductDependencies = (
+			);
+			productName = TallyAppTests;
+			productReference = C616DAEE2CAD9FE100BD5327 /* TallyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C616DAF72CAD9FE100BD5327 /* TallyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C616DB092CAD9FE100BD5327 /* Build configuration list for PBXNativeTarget "TallyAppUITests" */;
+			buildPhases = (
+				C616DAF42CAD9FE100BD5327 /* Sources */,
+				C616DAF52CAD9FE100BD5327 /* Frameworks */,
+				C616DAF62CAD9FE100BD5327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C616DAFA2CAD9FE100BD5327 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C616DAFB2CAD9FE100BD5327 /* TallyAppUITests */,
+			);
+			name = TallyAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TallyAppUITests;
+			productReference = C616DAF82CAD9FE100BD5327 /* TallyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C616DAD02CAD9FE000BD5327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C616DAD72CAD9FE000BD5327 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C616DAED2CAD9FE100BD5327 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C616DAD72CAD9FE000BD5327;
+					};
+					C616DAF72CAD9FE100BD5327 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C616DAD72CAD9FE000BD5327;
+					};
+				};
+			};
+			buildConfigurationList = C616DAD32CAD9FE000BD5327 /* Build configuration list for PBXProject "TallyApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C616DACF2CAD9FE000BD5327;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C616DAD92CAD9FE000BD5327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C616DAD72CAD9FE000BD5327 /* TallyApp */,
+				C616DAED2CAD9FE100BD5327 /* TallyAppTests */,
+				C616DAF72CAD9FE100BD5327 /* TallyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C616DAD62CAD9FE000BD5327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C616DAEC2CAD9FE100BD5327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C616DAF62CAD9FE100BD5327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C616DAD42CAD9FE000BD5327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C616DAEA2CAD9FE100BD5327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C616DAF42CAD9FE100BD5327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C616DAF02CAD9FE100BD5327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C616DAD72CAD9FE000BD5327 /* TallyApp */;
+			targetProxy = C616DAEF2CAD9FE100BD5327 /* PBXContainerItemProxy */;
+		};
+		C616DAFA2CAD9FE100BD5327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C616DAD72CAD9FE000BD5327 /* TallyApp */;
+			targetProxy = C616DAF92CAD9FE100BD5327 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C616DB022CAD9FE100BD5327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TallyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TallyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C616DB032CAD9FE100BD5327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TallyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TallyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C616DB042CAD9FE100BD5327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C616DB052CAD9FE100BD5327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C616DB072CAD9FE100BD5327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TallyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TallyApp";
+			};
+			name = Debug;
+		};
+		C616DB082CAD9FE100BD5327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TallyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TallyApp";
+			};
+			name = Release;
+		};
+		C616DB0A2CAD9FE100BD5327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TallyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TallyApp;
+			};
+			name = Debug;
+		};
+		C616DB0B2CAD9FE100BD5327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TallyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TallyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C616DAD32CAD9FE000BD5327 /* Build configuration list for PBXProject "TallyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C616DB042CAD9FE100BD5327 /* Debug */,
+				C616DB052CAD9FE100BD5327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C616DB012CAD9FE100BD5327 /* Build configuration list for PBXNativeTarget "TallyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C616DB022CAD9FE100BD5327 /* Debug */,
+				C616DB032CAD9FE100BD5327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C616DB062CAD9FE100BD5327 /* Build configuration list for PBXNativeTarget "TallyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C616DB072CAD9FE100BD5327 /* Debug */,
+				C616DB082CAD9FE100BD5327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C616DB092CAD9FE100BD5327 /* Build configuration list for PBXNativeTarget "TallyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C616DB0A2CAD9FE100BD5327 /* Debug */,
+				C616DB0B2CAD9FE100BD5327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C616DAD02CAD9FE000BD5327 /* Project object */;
+}
