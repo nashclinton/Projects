@@ -15,7 +15,6 @@ enum NetworkError: LocalizedError {
     }
 }
 
-// Response structure for the DogPhoto API
 struct DogPhotoResponse: Codable {
     let message: String
     let status: String
@@ -23,27 +22,22 @@ struct DogPhotoResponse: Codable {
 
 struct Network {
     
-    // Fetch a random dog photo asynchronously
     static func fetchDogPhoto() async throws -> UIImage {
         guard let url = URL(string: "https://dog.ceo/api/breeds/image/random") else {
             throw NetworkError.invalidURL
         }
 
         let (data, response) = try await URLSession.shared.data(from: url)
-        
-        // Decode response
+
         let photoResponse = try JSONDecoder().decode(DogPhotoResponse.self, from: data)
 
-        // Check response status
         guard photoResponse.status == "success", let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
             throw NetworkError.imageDataMissing
         }
         
-        // Fetch and return image
         return try await fetchImage(from: URL(string: photoResponse.message)!)
     }
 
-    // Fetch image from URL
     static func fetchImage(from url: URL) async throws -> UIImage {
         let (data, response) = try await URLSession.shared.data(from: url)
         
@@ -78,12 +72,10 @@ struct Representative: Codable {
 }
 
 
-// Response structure for the representative API
 struct SearchResponse: Codable {
     let results: [Representative]
 }
 
-// Network error for API calls
 enum ApiError: Error, LocalizedError {
     case itemsNotFound
     case invalidResponse
@@ -101,7 +93,6 @@ enum ApiError: Error, LocalizedError {
     }
 }
 
-// Fetch representatives matching query parameters
 func fetchRepresentatives(matching query: [String: String]) async throws -> [Representative] {
     var urlComponents = URLComponents(string: "https://whoismyrepresentative.com/getall_reps_byname.php")!
     
