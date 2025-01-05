@@ -76,7 +76,7 @@ struct ItemSearchResult: Codable {
 
 
 
-func getItem(id: Int) async throws -> URL {
+func getItem(id: Int) async throws -> String {
     let urlComponents = URLComponents(string: "https://eol.org/api/pages/1.0/\(id).json?taxonomy=true&images_per_page=1&language=en")!
     
     let (data, response) = try await URLSession.shared.data(from: urlComponents.url!)
@@ -92,7 +92,7 @@ func getItem(id: Int) async throws -> URL {
     let decoder = JSONDecoder()
     do {
         let searchResponse = try decoder.decode(ItemSearchResult.self, from: data)
-        return URL(string: searchResponse.taxonConcept.dataObjects.first!.mediaURL)!
+        return searchResponse.taxonConcept.dataObjects.first!.mediaURL
     } catch {
         throw error
     }
